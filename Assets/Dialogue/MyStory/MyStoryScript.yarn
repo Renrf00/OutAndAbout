@@ -1,0 +1,177 @@
+﻿title: Start
+---
+// Declare all first time variables
+<<declare $FirstControlRoom = true>>
+<<declare $FirstForest = true>>
+<<declare $FirstMessa = true>>
+<<declare $FirstMountain = true>>
+<<declare $FirstOcean = true>>
+
+<<declare $FirstBerries = true>>
+
+// Stage of quests
+<<declare $rabbitState = "nothing">>
+<<declare $snakeState = "nothing">>
+<<declare $goatState = "nothing">>
+<<declare $monkeyState = "nothing">>
+
+<<declare $animalsLeft = 4>>
+
+// Displayed name of the quests
+<<declare $rabbitQuest = "">>
+<<declare $snakeQuest = "">>
+<<declare $goatQuest = "">>
+<<declare $monkeyQuest = "">>
+
+<<declare $currentRoom = "">>
+<<set $currentRoom = get_scene()>>
+
+<<declare $oneUpdate = true>>
+
+<<if $oneUpdate && !($FirstControlRoom && get_scene() == "ControlRoom")>>
+    <<jump UpdateQuests>>
+<<endif>>
+<<set $oneUpdate = true>>
+
+// Select room
+<<if get_scene() == "ControlRoom" && $FirstControlRoom>>
+        <<jump ControlRoomIntro>>
+<<elseif get_scene() == "ForestBiodome" && $FirstForest>>
+        <<jump ForestIntro>>
+<<elseif get_scene() == "MessaBiodome" && $FirstMessa>>
+        <<jump MessaIntro>>
+<<elseif get_scene() == "MountainBiodome" && $FirstMountain>>
+        <<jump MountainIntro>>
+<<elseif get_scene() == "OceanBiodome" && $FirstOcean>>
+        <<jump OceanIntro>>
+<<endif>>
+===
+
+title: ControlRoomIntro
+---
+<<set $FirstControlRoom = false>>
+Welcome Disposable Cadet, the ship has traveled 97% of the distance to the terraforming objective proxima centauri b.
+Thus the defrosting process for the flora and fauna aboard the ship was started.
+However the animals were sent to the wrong biodomes, putting them at risk of extinction before the ship reaches its intended destination.
+So to prevent disaster you were woken up from Cryosleep. So what do you say, ready for an adventure?
+-> Yes
+    Great, you will need to go to the intended biodome for each animal and get their favorite food or the tool best suited to help you transport them.
+    You will need some berries for the rabbit, a snake net for the snake, some hay for the goat and a vase for the monkey. 
+    Only after acquiring the food or tool for each animal can you catch that animal and bring them here so I can send them to their biodomes.
+-> No
+    No? 
+    Too bad your opinion does't matter
+    As for your task, you will need to go to the intended biodome for each animal and get their favorite food or the tool best suited to help you transport them.
+    You will need some berries for the rabbit, a snake net for the snake, some hay for the goat and a vase for the monkey. 
+    Only after acquiring the food or tool for each animal can you catch that animal and bring them here so I can send them to their biodomes.
+
+<<jump UpdateQuests>>
+===
+
+title: ForestIntro
+---
+<<set $FirstForest = false>>
+Welcome to the Forest, home of the rabbit, that glutton will go crazy the second he gets a whiff of those berries
+The berries should be somewhere across the river
+===
+
+title: MessaIntro
+---
+<<set $FirstMessa = false>>
+Welcome to the Messa, home of the snake, the snake net should be somewhere by the campsite
+The last batch I woke up spent some days camping before being frozen again and it looks pretty cool so its staying
+===
+
+title: MountainIntro
+---
+<<set $FirstMountain = false>>
+Welcome to the mountain its got thunder implemented but I forgot to add the lightning when waking you up, but you won't mind, surely...
+Oh yeah, it's the home of the goat and the hay should be somewhere at the base of the mountain, almost forgot the rest of the introduction
+===
+
+title: OceanIntro
+---
+<<set $FirstOcean = false>>
+Welcome to the ocean, home of the monkey, no I don't know what species of monkey it is, it wasn't in my database and I can't be bother to identify it
+Also the vase should be somewere on the island
+===
+
+title: Berries
+---
+<<if $FirstBerries>>
+    <<set $FirstBerries = false>>
+    Nice, the rabbit should be in the ocean and remember to watch your fingers when feeding it
+<<endif>>
+===
+
+title: SnakeNet
+---
+You know how to use that right? 
+Actually I don't care, so don't answer.
+===
+
+title: Hay
+---
+I just checked and the goat is still drooling at the bottom of the Messa biodome, not a thought behind those eyes.
+===
+
+title: Vase
+---
+Great now you should be able to put the monkey in there and bring it back from the forest
+===
+
+title: Rabbit
+---
+Pice of cake, now time to bring it back to me
+===
+
+title: Snake
+---
+Amazing! you managed to not get bitten, it would have been a pity to fail this close to achieving your objective
+===
+
+title: Goat
+---
+That goat looks almost hypnotized by that hay, almost as if it's programed to do so...
+===
+
+title: Monkey
+---
+I know it feels like animal abuse and it kind of is, but hes a very slipery fella and I don't want to take any chances
+===
+
+title: AnimalsLeft
+---
+<<if $animalsLeft <= 0>>
+    <<jump End>>    
+<<elseif $animalsLeft == 1>>
+    You are only missing the last animal!
+<<elseif $animalsLeft == 2>>   
+    You are missing 2 more animals
+<<elseif $animalsLeft == 3>>
+    You are still missing the 3 other animals
+<<endif>>
+===
+
+title: End
+---
+<<DisablePlayerControl>>
+Congratulations on finishing your mission!!
+As a reward you can go back to sleep and recieve watever your actual reward will be when we reach the destination
+<<FadeOut>>
+<<wait 50>>
+<<CloseGame>>
+===
+
+title: UpdateQuests
+---
+<<set $rabbitQuest = GetQuestString("rabbit", $rabbitState) >>
+<<set $snakeQuest = GetQuestString("snake", $snakeState)>>
+<<set $goatQuest = GetQuestString("goat", $goatState)>>
+<<set $monkeyQuest = GetQuestString("monkey", $monkeyState)>>
+
+<<if $oneUpdate>>
+    <<set $oneUpdate = false>>
+    <<jump Start>>
+<<endif>>
+===
