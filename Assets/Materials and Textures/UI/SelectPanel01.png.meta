@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 89229306c96d444629ad6f9ba18b1e62
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SelectPanel01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 157
+        height: 339
+      alignment: 7
+      pivot: {x: 0, y: -1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf02a9cc7be24547b6a644c94e1aabd
+      internalID: -353465421646805906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 418ecda61bf654eb68d8b81b975fe40c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SelectPanel01_0: -353465421646805906
+      SelectPanel01_1: -3344901665114773656
+      SelectPanel01_10: -4169077154202530660
+      SelectPanel01_11: 1106484116681019761
+      SelectPanel01_12: 6626618766376579435
+      SelectPanel01_13: 1210600506084023815
+      SelectPanel01_14: 8854061286879318966
+      SelectPanel01_15: 765315407867545117
+      SelectPanel01_16: 2021384724861308676
+      SelectPanel01_17: 1999504350647987896
+      SelectPanel01_18: 5615546632620738665
+      SelectPanel01_19: -5603192064987183671
+      SelectPanel01_2: -6784888333383485937
+      SelectPanel01_20: 3702867024790983283
+      SelectPanel01_21: 1036588669106465325
+      SelectPanel01_22: 8198314779015101368
+      SelectPanel01_23: -912751537020962947
+      SelectPanel01_24: 6002434517799853003
+      SelectPanel01_25: 4465964107265796188
+      SelectPanel01_26: -7749341914092992163
+      SelectPanel01_27: 8826612492464813263
+      SelectPanel01_28: -5092447564554968363
+      SelectPanel01_29: -5711188510419603375
+      SelectPanel01_3: -8097675390309682175
+      SelectPanel01_30: 7801698843024099274
+      SelectPanel01_31: -7226280998303341285
+      SelectPanel01_32: -2800349111875516516
+      SelectPanel01_33: -3867381472670644532
+      SelectPanel01_34: 5637833769362878668
+      SelectPanel01_35: 3169273662828237721
+      SelectPanel01_36: -3440542445836995255
+      SelectPanel01_37: 5385339914776174693
+      SelectPanel01_38: -3362372902620783952
+      SelectPanel01_39: -8109056003745977476
+      SelectPanel01_4: -635818982027019716
+      SelectPanel01_5: 8846236324729614865
+      SelectPanel01_6: 8486032392027617797
+      SelectPanel01_7: 6205743412109106249
+      SelectPanel01_8: -2253791971054257805
+      SelectPanel01_9: 8390218876078784934
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

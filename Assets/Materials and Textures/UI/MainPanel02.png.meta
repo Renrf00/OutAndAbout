@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: b5c7c551c408848bcb7a12d3e000cfcc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MainPanel02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 302
+        height: 403
+      alignment: 7
+      pivot: {x: 0, y: -1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96ed82cab8f3452c8ff46a9377b2fc9
+      internalID: 9189034745660816729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f7bff772057ad4f0585829c4f103db10
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MainPanel02_0: 9189034745660816729
+      MainPanel02_1: 3193727291574249579
+      MainPanel02_10: -7569382914530586672
+      MainPanel02_100: 8642778532812394722
+      MainPanel02_101: 7215623746428331055
+      MainPanel02_102: 1706407810184219321
+      MainPanel02_103: -5908494743032560298
+      MainPanel02_104: -3244520796671609532
+      MainPanel02_105: 1486757119229819595
+      MainPanel02_106: 1514368403599925176
+      MainPanel02_107: 2063048961371725065
+      MainPanel02_11: -5084354121733391514
+      MainPanel02_12: -6179019154822021183
+      MainPanel02_13: 11771304881681021
+      MainPanel02_14: -7768137117546057670
+      MainPanel02_15: 8933529961414525644
+      MainPanel02_16: 8329867229764376653
+      MainPanel02_17: -352544213853352689
+      MainPanel02_18: 106218751283408738
+      MainPanel02_19: -7998516812034056046
+      MainPanel02_2: 7579745319920275922
+      MainPanel02_20: -142848716853049329
+      MainPanel02_21: -9125359245001603966
+      MainPanel02_22: 6105839594109065681
+      MainPanel02_23: 7077090791032780371
+      MainPanel02_24: -4344251312865510289
+      MainPanel02_25: 1608036418452040327
+      MainPanel02_26: 5118776644556734352
+      MainPanel02_27: -9011327042877093429
+      MainPanel02_28: -2484148964725677846
+      MainPanel02_29: -2251193288434105382
+      MainPanel02_3: 407789496204585404
+      MainPanel02_30: -4200857470506522705
+      MainPanel02_31: -8055201450619537994
+      MainPanel02_32: 3078943024680705818
+      MainPanel02_33: -5959536238159156552
+      MainPanel02_34: 8111170161512465734
+      MainPanel02_35: 432951097888152721
+      MainPanel02_36: -8873153749104109137
+      MainPanel02_37: -7739215292878177692
+      MainPanel02_38: 6752741289806921563
+      MainPanel02_39: -2743471466879712292
+      MainPanel02_4: 4799865232967097228
+      MainPanel02_40: 8222790341860388955
+      MainPanel02_41: -2208985927795567151
+      MainPanel02_42: 4749653186853123949
+      MainPanel02_43: -7682238868252531317
+      MainPanel02_44: -7249948987761108794
+      MainPanel02_45: 7629116434565801080
+      MainPanel02_46: 2830517551727676084
+      MainPanel02_47: -185972784378040413
+      MainPanel02_48: 8133057182853655109
+      MainPanel02_49: -3146571259490872321
+      MainPanel02_5: -8260219727886741530
+      MainPanel02_50: -5855601023533510
+      MainPanel02_51: -6075175270470778188
+      MainPanel02_52: 5996850533156583460
+      MainPanel02_53: 6492990907592006602
+      MainPanel02_54: 8258226308820755860
+      MainPanel02_55: 6546881689692341962
+      MainPanel02_56: -4309658451453043025
+      MainPanel02_57: -800108928112510071
+      MainPanel02_58: -8214629498336025211
+      MainPanel02_59: -1541021410088462488
+      MainPanel02_6: 7060367180840704329
+      MainPanel02_60: -8810757803203619718
+      MainPanel02_61: 6787036402684181500
+      MainPanel02_62: -5463670417287910062
+      MainPanel02_63: 9139027757254422745
+      MainPanel02_64: -5176474691540316117
+      MainPanel02_65: -898930181928482160
+      MainPanel02_66: 3530914974982895495
+      MainPanel02_67: -420335049607364944
+      MainPanel02_68: -2103102128634749367
+      MainPanel02_69: 3069675563605415843
+      MainPanel02_7: -9042948926847219824
+      MainPanel02_70: 8166116106134985659
+      MainPanel02_71: -5079040322459023585
+      MainPanel02_72: 2421104670521729259
+      MainPanel02_73: -8700563772818687686
+      MainPanel02_74: 5200240639868080859
+      MainPanel02_75: 1091387979533067545
+      MainPanel02_76: 2608412053435348385
+      MainPanel02_77: 9155348186508410899
+      MainPanel02_78: -741783982613560965
+      MainPanel02_79: -3588642149776655297
+      MainPanel02_8: 3541763589199346834
+      MainPanel02_80: 4592403799109713675
+      MainPanel02_81: -6112612759755556298
+      MainPanel02_82: 5860451155986074401
+      MainPanel02_83: -4461213442036417832
+      MainPanel02_84: 1403093565473467754
+      MainPanel02_85: 2589349933698096889
+      MainPanel02_86: 8710909141956297029
+      MainPanel02_87: -3081840668456693120
+      MainPanel02_88: -8662502629521212316
+      MainPanel02_89: 6267943677826278391
+      MainPanel02_9: -4771220114372914628
+      MainPanel02_90: -5455597531031305327
+      MainPanel02_91: -5453529763651942739
+      MainPanel02_92: -8454552823210998976
+      MainPanel02_93: 3499035789766685118
+      MainPanel02_94: -1325738419239696871
+      MainPanel02_95: 2088265284876743739
+      MainPanel02_96: -333570464659095376
+      MainPanel02_97: -3049220659847218182
+      MainPanel02_98: -5330062623102593326
+      MainPanel02_99: 1811371117512998995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

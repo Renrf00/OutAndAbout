@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4941497934587055251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: Preload
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: TriggerOnce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: AllowFadeout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: EventPlayTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: EventStopTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: EventReference.Path
+      value: event:/PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -251310321
+      objectReference: {fileID: 0}
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1169131203
+      objectReference: {fileID: 0}
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -1284993103
+      objectReference: {fileID: 0}
+    - target: {fileID: -3952176459421869334, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1055437405
+      objectReference: {fileID: 0}
+    - target: {fileID: 99561595061859375, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: dialogueNodeName
+      value: Vase
+      objectReference: {fileID: 0}
+    - target: {fileID: 343080732056163891, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: identifier
+      value: $monkeyState
+      objectReference: {fileID: 0}
+    - target: {fileID: 391722200843620239, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: cded5f7e80fbf4e269e17fd74675e744,
+        type: 2}
+    - target: {fileID: 1076159137418220221, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2905897282217486104, guid: f0e1030deee1a634f9d62080f4026b76,
+        type: 3}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213883750903577949, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7722004624760307670, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: variableName
+      value: $monkeyState
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190285112023139066, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: m_Name
+      value: Vase Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8587089466781402354, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a57c77f070e349e428256669c403a9c5, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6796705563866218942, guid: ac524844d28cf444dab75d29c41f93d2, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8190285112023139066, guid: ac524844d28cf444dab75d29c41f93d2,
+        type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 5532276114232055526}
+  m_SourcePrefab: {fileID: 100100000, guid: ac524844d28cf444dab75d29c41f93d2, type: 3}
+--- !u!1 &3835385570027900521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8190285112023139066, guid: ac524844d28cf444dab75d29c41f93d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 4941497934587055251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5532276114232055526
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3835385570027900521}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.688884, y: 5.583229, z: 3.688884}
+  m_Center: {x: 0, y: 1.7916145, z: 0}
