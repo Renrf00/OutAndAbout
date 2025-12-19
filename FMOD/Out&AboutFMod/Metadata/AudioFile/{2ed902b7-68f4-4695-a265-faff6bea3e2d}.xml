@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{2ed902b7-68f4-4695-a265-faff6bea3e2d}">
+		<property name="assetPath">
+			<value>345852__hargissssound__spring-birds-loop-with-low-cut-new-jersey.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>146.01400000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0a1c5a36-d0ef-475b-9a65-9628c940b801}</destination>
+		</relationship>
+	</object>
+</objects>
